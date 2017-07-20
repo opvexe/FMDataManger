@@ -11,6 +11,8 @@
 		A620809D1F20762D0067477C /* FMDataMange.m in Sources */ = {isa = PBXBuildFile; fileRef = A620809C1F20762D0067477C /* FMDataMange.m */; };
 		A62080A21F2078410067477C /* NSString+WY_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A62080A11F2078410067477C /* NSString+WY_Extension.m */; };
 		A62080A61F20792B0067477C /* WithYouTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A62080A51F20792B0067477C /* WithYouTools.m */; };
+		A62080A91F207BC20067477C /* GDHomeCacheDB.m in Sources */ = {isa = PBXBuildFile; fileRef = A62080A81F207BC20067477C /* GDHomeCacheDB.m */; };
+		A62080AC1F207BE50067477C /* GDHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A62080AB1F207BE50067477C /* GDHomeModel.m */; };
 		A64D62111F206A7700C79681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A64D62101F206A7700C79681 /* main.m */; };
 		A64D62141F206A7700C79681 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A64D62131F206A7700C79681 /* AppDelegate.m */; };
 		A64D62171F206A7700C79681 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A64D62161F206A7700C79681 /* ViewController.m */; };
@@ -48,6 +50,10 @@
 		A62080A11F2078410067477C /* NSString+WY_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WY_Extension.m"; sourceTree = "<group>"; };
 		A62080A41F20792B0067477C /* WithYouTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WithYouTools.h; sourceTree = "<group>"; };
 		A62080A51F20792B0067477C /* WithYouTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WithYouTools.m; sourceTree = "<group>"; };
+		A62080A71F207BC20067477C /* GDHomeCacheDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDHomeCacheDB.h; sourceTree = "<group>"; };
+		A62080A81F207BC20067477C /* GDHomeCacheDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDHomeCacheDB.m; sourceTree = "<group>"; };
+		A62080AA1F207BE50067477C /* GDHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDHomeModel.h; sourceTree = "<group>"; };
+		A62080AB1F207BE50067477C /* GDHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDHomeModel.m; sourceTree = "<group>"; };
 		A64D620C1F206A7700C79681 /* GD_FMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GD_FMDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64D62101F206A7700C79681 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A64D62121F206A7700C79681 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +114,8 @@
 			children = (
 				A620809B1F20762D0067477C /* FMDataMange.h */,
 				A620809C1F20762D0067477C /* FMDataMange.m */,
+				A62080A71F207BC20067477C /* GDHomeCacheDB.h */,
+				A62080A81F207BC20067477C /* GDHomeCacheDB.m */,
 			);
 			path = Cache;
 			sourceTree = "<group>";
@@ -158,6 +166,8 @@
 		A64D620E1F206A7700C79681 /* GD_FMDB */ = {
 			isa = PBXGroup;
 			children = (
+				A62080AA1F207BE50067477C /* GDHomeModel.h */,
+				A62080AB1F207BE50067477C /* GDHomeModel.m */,
 				A64D62121F206A7700C79681 /* AppDelegate.h */,
 				A64D62131F206A7700C79681 /* AppDelegate.m */,
 				A64D62151F206A7700C79681 /* ViewController.h */,
@@ -394,7 +404,9 @@
 				A64D62171F206A7700C79681 /* ViewController.m in Sources */,
 				A62080A61F20792B0067477C /* WithYouTools.m in Sources */,
 				A620809D1F20762D0067477C /* FMDataMange.m in Sources */,
+				A62080A91F207BC20067477C /* GDHomeCacheDB.m in Sources */,
 				A64D62141F206A7700C79681 /* AppDelegate.m in Sources */,
+				A62080AC1F207BE50067477C /* GDHomeModel.m in Sources */,
 				A64D62111F206A7700C79681 /* main.m in Sources */,
 				A62080A21F2078410067477C /* NSString+WY_Extension.m in Sources */,
 			);

@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "GDHomeModel.h"
+#import "GDHomeCacheDB.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    GDHomeModel *model  = [[GDHomeModel alloc]init];
+    model.ID   =@"100";
+    model.signature = @"i cando it ";
+    
+    [[GDHomeCacheDB shareDB]saveModel:model];
+    
+    
+    GDHomeModel *GDModel = [[GDHomeCacheDB shareDB]findWithID:model.ID];
+    NSLog(@"%@",GDModel.signature);
 }
 
 
