@@ -1,0 +1,7 @@
+platform :ios, '9.0'
+
+target 'GD_FMDB' do
+ 
+pod 'FMDB', '~> 2.7.2'
+
+end
