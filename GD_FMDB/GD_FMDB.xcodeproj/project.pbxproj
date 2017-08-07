@@ -13,6 +13,10 @@
 		A62080A61F20792B0067477C /* WithYouTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A62080A51F20792B0067477C /* WithYouTools.m */; };
 		A62080A91F207BC20067477C /* GDHomeCacheDB.m in Sources */ = {isa = PBXBuildFile; fileRef = A62080A81F207BC20067477C /* GDHomeCacheDB.m */; };
 		A62080AC1F207BE50067477C /* GDHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A62080AB1F207BE50067477C /* GDHomeModel.m */; };
+		A6460E281F37F9DC00A32B8B /* CPDownLoadManger.m in Sources */ = {isa = PBXBuildFile; fileRef = A6460E231F37F9DC00A32B8B /* CPDownLoadManger.m */; };
+		A6460E291F37F9DC00A32B8B /* CPDownLoadSessionManger.m in Sources */ = {isa = PBXBuildFile; fileRef = A6460E251F37F9DC00A32B8B /* CPDownLoadSessionManger.m */; };
+		A6460E2A1F37F9DC00A32B8B /* DownLoadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6460E271F37F9DC00A32B8B /* DownLoadModel.m */; };
+		A6460E2D1F37FA0700A32B8B /* NSString+CPHash.m in Sources */ = {isa = PBXBuildFile; fileRef = A6460E2C1F37FA0700A32B8B /* NSString+CPHash.m */; };
 		A64D62111F206A7700C79681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A64D62101F206A7700C79681 /* main.m */; };
 		A64D62141F206A7700C79681 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A64D62131F206A7700C79681 /* AppDelegate.m */; };
 		A64D62171F206A7700C79681 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A64D62161F206A7700C79681 /* ViewController.m */; };
@@ -54,6 +58,14 @@
 		A62080A81F207BC20067477C /* GDHomeCacheDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDHomeCacheDB.m; sourceTree = "<group>"; };
 		A62080AA1F207BE50067477C /* GDHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDHomeModel.h; sourceTree = "<group>"; };
 		A62080AB1F207BE50067477C /* GDHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDHomeModel.m; sourceTree = "<group>"; };
+		A6460E221F37F9DC00A32B8B /* CPDownLoadManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDownLoadManger.h; sourceTree = "<group>"; };
+		A6460E231F37F9DC00A32B8B /* CPDownLoadManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDownLoadManger.m; sourceTree = "<group>"; };
+		A6460E241F37F9DC00A32B8B /* CPDownLoadSessionManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDownLoadSessionManger.h; sourceTree = "<group>"; };
+		A6460E251F37F9DC00A32B8B /* CPDownLoadSessionManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDownLoadSessionManger.m; sourceTree = "<group>"; };
+		A6460E261F37F9DC00A32B8B /* DownLoadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoadModel.h; sourceTree = "<group>"; };
+		A6460E271F37F9DC00A32B8B /* DownLoadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownLoadModel.m; sourceTree = "<group>"; };
+		A6460E2B1F37FA0700A32B8B /* NSString+CPHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CPHash.h"; sourceTree = "<group>"; };
+		A6460E2C1F37FA0700A32B8B /* NSString+CPHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CPHash.m"; sourceTree = "<group>"; };
 		A64D620C1F206A7700C79681 /* GD_FMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GD_FMDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64D62101F206A7700C79681 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A64D62121F206A7700C79681 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -138,9 +150,25 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		A6460E211F37F9DC00A32B8B /* DownLoad */ = {
+			isa = PBXGroup;
+			children = (
+				A6460E2B1F37FA0700A32B8B /* NSString+CPHash.h */,
+				A6460E2C1F37FA0700A32B8B /* NSString+CPHash.m */,
+				A6460E221F37F9DC00A32B8B /* CPDownLoadManger.h */,
+				A6460E231F37F9DC00A32B8B /* CPDownLoadManger.m */,
+				A6460E241F37F9DC00A32B8B /* CPDownLoadSessionManger.h */,
+				A6460E251F37F9DC00A32B8B /* CPDownLoadSessionManger.m */,
+				A6460E261F37F9DC00A32B8B /* DownLoadModel.h */,
+				A6460E271F37F9DC00A32B8B /* DownLoadModel.m */,
+			);
+			path = DownLoad;
+			sourceTree = "<group>";
+		};
 		A64D62031F206A7700C79681 = {
 			isa = PBXGroup;
 			children = (
+				A6460E211F37F9DC00A32B8B /* DownLoad */,
 				A62080A31F2079170067477C /* Tools */,
 				A620809F1F20783A0067477C /* Catagory */,
 				A620809A1F2075E70067477C /* Cache */,
@@ -402,11 +430,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A64D62171F206A7700C79681 /* ViewController.m in Sources */,
+				A6460E281F37F9DC00A32B8B /* CPDownLoadManger.m in Sources */,
+				A6460E2D1F37FA0700A32B8B /* NSString+CPHash.m in Sources */,
 				A62080A61F20792B0067477C /* WithYouTools.m in Sources */,
 				A620809D1F20762D0067477C /* FMDataMange.m in Sources */,
 				A62080A91F207BC20067477C /* GDHomeCacheDB.m in Sources */,
+				A6460E2A1F37F9DC00A32B8B /* DownLoadModel.m in Sources */,
 				A64D62141F206A7700C79681 /* AppDelegate.m in Sources */,
 				A62080AC1F207BE50067477C /* GDHomeModel.m in Sources */,
+				A6460E291F37F9DC00A32B8B /* CPDownLoadSessionManger.m in Sources */,
 				A64D62111F206A7700C79681 /* main.m in Sources */,
 				A62080A21F2078410067477C /* NSString+WY_Extension.m in Sources */,
 			);
